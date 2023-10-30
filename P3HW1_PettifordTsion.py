@@ -17,7 +17,7 @@ grade_list = [mod_1, mod_2, mod_3, mod_4, mod_5, mod_6]
 low = min(grade_list)
 high = max(grade_list)
 summ = sum(grade_list)
-average = (high/len(grade_list))
+average = (summ/len(grade_list))
 
 # determine letter grade for average
 
