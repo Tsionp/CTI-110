@@ -1,7 +1,7 @@
 #CTI-110
 #Tsion Pettiford
 #10/10/2023
-#P2HW2 - List
+#P4HW1 - List
 #working with for and while loops
 
 #create 6 variables based off the user's input
