@@ -9,12 +9,14 @@ num_grades = int(input("How many grades will you enter? ")) #ask the user how ma
 grade_list = [] #create empty list 
 for grade in range(num_grades):
     this_grade = int(input("Enter a grade: "))
-    grade_list.append(this_grade)
-    print("Grades have been adeded to the list. ")
+   
 
-    while this_grade < 0 or this_grade > 100:
+    while this_grade < 0 or this_grade > 100: #check if the grade is valid 
         print("Invalid grade.")
         this_grade = int(input("Enter a grade: "))
+
+grade_list.append(this_grade) #add the valid grade to the list 
+print("Grades have been adeded to the list. ")
 
 for grade in grade_list:
     print(grade)
