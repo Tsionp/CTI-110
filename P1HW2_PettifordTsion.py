@@ -21,4 +21,3 @@ print("Food Cost: ", food)
 print("Hotel Cost: ", hotel)
 
 print("Remaining Balance:", budget-expenses)
-
